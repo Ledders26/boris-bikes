@@ -12,7 +12,8 @@ describe DockingStation do
     describe "#get_working_bike" do
         it "should release a bike and confirm it is a working bike" do
             docking_station = DockingStation.new
-            expect(docking_station.release_bike).to be_a Bike
+            bike = docking_station.release_bike
+            expect(bike).to be_a Bike
             expect(bike.working?).to eq true
         end
     end
