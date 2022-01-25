@@ -1,4 +1,4 @@
-require_relative "../lib/boris_bikes.rb"
+require_relative "../lib/docking_station.rb"
 
 describe DockingStation do
     describe "#release_bike" do
