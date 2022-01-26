@@ -5,5 +5,3 @@ class Bike
   end
 
 end
-
-# testing that I've succesfully forked and amended repo
